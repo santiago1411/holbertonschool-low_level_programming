@@ -1,2 +1,2 @@
-sao14112001
+#!/bin/bash
 gcc $CFILE -E -o c
