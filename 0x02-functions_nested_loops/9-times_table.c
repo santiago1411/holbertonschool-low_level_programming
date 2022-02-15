@@ -3,6 +3,7 @@
  * times_table - print multiplication table
  */
 void times_table(void)
+{
 	int i, j, k;
 
 	for (i = 0; i < 10; i++)
