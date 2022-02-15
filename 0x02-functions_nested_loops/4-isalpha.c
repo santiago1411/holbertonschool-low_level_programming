@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _isalpha - checks for alphabet character
+ * @c: character to check
+ * Return: 1 if lower or uppercase, 0 if not alphabet character
  */
 int _isalpha(int c)
 {
@@ -14,7 +14,7 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
