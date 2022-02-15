@@ -5,8 +5,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{ 
-char Z[]= "_putchar\n";
+{
+
+char Z[] = "_putchar\n";
 int p = 0;
 
 while (p < 9)
