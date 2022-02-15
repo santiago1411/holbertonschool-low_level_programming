@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _islower - checks for lowercase character
+ * @c: character to check
+ * Return: 1 if lowercase, 0 if uppercase
  */
 int _islower(int c)
 {
@@ -12,8 +12,8 @@ int _islower(int c)
 	return (1);
 	}
 else
-	{	
-		return (0);
+{
+	return (0);
 }
 _putchar('\n');
 }
