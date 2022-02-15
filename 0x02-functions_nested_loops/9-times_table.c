@@ -1,9 +1,7 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
  * times_table - print multiplication table
  */
-
 void times_table(void)
 	int i, j, k;
 
