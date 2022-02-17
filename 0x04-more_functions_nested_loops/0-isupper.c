@@ -12,9 +12,9 @@ int _isupper(int c)
 	{
 	return (1);
 	}
-else
+	else
 {
 	return (0);
 }
-_putchar('\n');
+
 }
