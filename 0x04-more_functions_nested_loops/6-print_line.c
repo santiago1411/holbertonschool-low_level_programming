@@ -7,7 +7,7 @@
  */
 void print_line(int n)
 {
-	char c
+	char c;
 
 		for (c = 0; c < n; c++)
 		{
