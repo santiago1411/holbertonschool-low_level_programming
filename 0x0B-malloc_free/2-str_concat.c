@@ -26,15 +26,16 @@ char *str_concat(char *s1, char *s2)
 	
 	while (*s1)
 	{
-		conct[i] = *s1;
+		conct[i] = s1[i];
 		i++;
 		s1++;
 	}
 
 	while (*s2)
 	{
-		conct[i] = *s2;
+		conct[i] = s2[ci];
 		i++;
+		ci++;
 		s2++;
 	}
 	return (conct);
