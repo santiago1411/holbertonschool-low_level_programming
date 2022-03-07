@@ -15,9 +15,11 @@ char *_strdup(char *str)
 
 	for (r = 0; r <= *str; r++)
 	{
+	}
+
 		r += 1;
 		aaa = malloc(sizeof(char) * r);
-	}
+
 	for (i = 0; i < r; i++)
 		aaa[i] = str[i];
 
