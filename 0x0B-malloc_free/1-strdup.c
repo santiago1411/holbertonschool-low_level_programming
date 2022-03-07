@@ -1,6 +1,6 @@
-#include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "holberton.h"
 /**
  * _strdup - duplicate to new memory space location
  * @str: char
@@ -8,23 +8,23 @@
  */
 char *_strdup(char *str)
 {
-	int i, r;
-	char *aaa;
+	int i, end;
+	char *array;
 
 	if (str == NULL)
 		return (NULL);
 
-	for (r = 0; r <= *str; r++)
+	for (end = 0; end <= *str; end++)
 	{
 	}
 
-		r += 1;
-		aaa = malloc(sizeof(char) * r);
+	end += 1;
+	array = malloc(sizeof(char) * end);
 
-	for (i = 0; i < r; i++)
-		aaa[i] = str[i];
+	for (i = 0; i < end; i++)
+		array[i] = str[i];
 
-	if (aaa == NULL)
+	if (array == NULL)
 		return (NULL);
-	return (aaa);
+	return (array);
 }
