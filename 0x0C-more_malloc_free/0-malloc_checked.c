@@ -8,7 +8,7 @@
 void *malloc_checked(unsigned int b)
 {
 	void *dew;
-	
+
 	dew = malloc(b);
 	if (dew == NULL)
 		exit(98);
